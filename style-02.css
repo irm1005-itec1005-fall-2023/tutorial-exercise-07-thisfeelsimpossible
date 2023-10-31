@@ -6,11 +6,74 @@
 
 /* Add your CSS here */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.item-1 {
+  background-color: rgb(155, 93, 235); 
+  color: black; 
+  border-radius: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  font-size: 2rem;
+  padding: 1rem;
+  
+}
 
 
 
+.item-2 {
+  background-color: rgb(53, 28, 83);
+  color: white;
+  border-radius: 20px;
+  padding: 1rem;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  font-size: 2rem;
+}
+
+.item-3 {
+background-color: rgb(255, 80, 243);
+color: rgb(68, 16, 16);
+border-radius: 20px;
+padding: 1rem;
+grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 3;
+font-size: 2rem;
+
+}
 
 
+.item-4 {
+  background-color: rgb(199, 176, 227);
+  color: rgb(39, 24, 136);
+  border-radius: 20px;
+  padding: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-size: 2rem;
+  
+}
+
+.item-5 {
+  background-color: rgb(204, 118, 195);
+  color:rgb(32, 26, 87);
+  border-radius: 20px;
+  padding: 1rem;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-size: 2rem;
+}
 
 /*
   CORE PAGE CSS - DO NOT MODIFY
