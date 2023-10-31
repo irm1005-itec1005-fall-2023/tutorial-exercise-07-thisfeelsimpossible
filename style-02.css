@@ -24,6 +24,8 @@
   grid-row-start: 1;
   font-size: 2rem;
   padding: 1rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
   
 }
 
@@ -38,6 +40,8 @@
   grid-column-end: 4;
   grid-row-start: 1;
   font-size: 2rem;
+  padding-right: 2rem;
+  
 }
 
 .item-3 {
@@ -50,6 +54,7 @@ grid-column-end: 5;
 grid-row-start: 1;
 grid-row-end: 3;
 font-size: 2rem;
+padding-bottom: 2rem;
 
 }
 
@@ -62,6 +67,7 @@ font-size: 2rem;
   grid-column-start: 1;
   grid-column-end: 2;
   font-size: 2rem;
+  padding-right: 2rem;
   
 }
 
@@ -73,6 +79,7 @@ font-size: 2rem;
   grid-column-start: 2;
   grid-column-end: 4;
   font-size: 2rem;
+  padding-right: 1rem;
 }
 
 /*
